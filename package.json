@@ -1,0 +1,29 @@
+{
+  "name": "todos-cli",
+  "version": "1.0.0",
+  "description": "Adapted from a tutorial on [LogRocket](https://blog.logrocket.com/creating-a-cli-tool-with-node-js/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreyjgong/todos-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreyjgong/todos-cli/issues"
+  },
+  "homepage": "https://github.com/jeffreyjgong/todos-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "conf": "^10.1.1"
+  },
+  "bin": {
+    "todos": "./index.js"
+  },
+  "type": "module"
+}
